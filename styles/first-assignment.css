@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* nav ber styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0070d1;
+    align-items: center;
+    padding: 40px 200px;
+    font-size: 24px;
+    box-shadow: 0px 0px 30px 0px;
+    margin-bottom: 30px;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+    align-items: center;
+    color: #ffffff;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-title {
+    font-size: 40px;
+    color: white;
+}
+
+.btn-mid-color {
+    color: #0fc728;
+    font-size: 50px;
+}
+
+/* button style */
+.primary-button {
+    cursor: pointer;
+    background-color: #0fc728;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    width: 200px;
+    height: 80px;
+    color: #ffffff;
+}
+
+.primary-button:hover {
+    background-color: #19a463;
+
+}
+
+/* banner styles */
+.banner {
+    text-align: right;
+    padding: 50px 200px;
+    font-size: 24px;
+    background-image: url('../images/banner/banner3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #cacac8;
+    background-position: cover;
+    background-blend-mode: darken;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    margin-bottom: 20px;
+    margin-left: 700px;
+}
+
+.banner-description {
+    font-size: 18px;
+    margin-left: 800px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+/* blog-container styles */
+.blog-box {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 100px 400px;
+
+
+}
+
+.blog-container {
+    font-size: 24px;
+    text-align: left;
+}
+
+.blog-title {}
+
+.blog-sub-title {
+    font-size: 18px;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.my-lost {
+    margin-top: 30px;
+    list-style-image: url('../images/icons/tiktik.png');
+}
