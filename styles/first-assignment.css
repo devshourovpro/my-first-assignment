@@ -65,7 +65,7 @@ nav ul {
     background-repeat: no-repeat;
     position: relative;
     background-blend-mode: multiply;
-    padding: 200px 100px 150px 1000px;
+    padding: 200px 200px 150px 1100px;
 }
 
 .banner-title {
@@ -181,8 +181,8 @@ nav ul {
 .future {
     display: flex;
     background-color: #000000;
-    justify-content: space-around;
-    padding: 100px 400px;
+    justify-content: space-between;
+    padding: 100px 500px;
     gap: 100px;
 }
 
@@ -217,7 +217,7 @@ nav ul {
 
 .gmail-btn {
     height: 80px;
-    width: 500px;
+    width: 400px;
     font-size: 18px;
     margin-bottom: 20px;
     border: none;
