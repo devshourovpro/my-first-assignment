@@ -101,6 +101,11 @@ nav ul {
     margin-top: 30px;
 }
 
+.my-lost {
+    margin-top: 30px;
+    list-style-image: url('../images/icons/tiktik.png');
+}
+
 
 /* my plan in this year styles */
 .plan {
@@ -110,40 +115,36 @@ nav ul {
 }
 
 .plan-margin {
-    margin: 10px 600px;
+    margin: 10px 500px;
 }
 
 .my-plan {
     display: flex;
-    gap: 100px;
-    padding: 100px 500px;
+    justify-content: space-around;
+    padding: 100px 450px;
+    align-items: center;
     text-align: center;
 }
 
 .my-plan-title {
-    font-size: 20px;
-    font-weight: 40px;
+    font-size: 30px;
+    font-weight: 30px;
 
 }
 
 .my-plan-sub {
-    font-size: 15px;
-}
-
-.my-lost {
-    margin-top: 30px;
-    list-style-image: url('../images/icons/tiktik.png');
+    font-size: 20px;
 }
 
 
 /* help section styles */
-.help {
-    padding: 0px 300px;
-    width: 1140px;
+.help-box {
+    padding: 40px 350px;
+    width: 1200px;
     height: 300px;
     color: white;
     border-radius: 10px;
-    background: linear-gradient(to right, rgb(122, 213, 255) 0%, rgba(255, 255, 255, 0) 100%) content-box no-repeat, url('/images/watch.png');
+    background-image: url('/images/gradient1.png'), url('/images/watch.png');
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 100px;
@@ -151,11 +152,11 @@ nav ul {
 }
 
 .help-title {
+    font-weight: 700;
     font-size: 40px;
-    margin-bottom: 30px;
-    padding-right: 400px;
-    padding-top: 20px;
-    margin-left: 30px;
+    padding-top: 50px;
+    margin-left: 80px;
+    margin-bottom: 20px;
 }
 
 .new-button {
@@ -167,8 +168,8 @@ nav ul {
     width: 200px;
     height: 80px;
     color: #ffffff;
-    margin-left: 30px;
-    margin-bottom: 40px;
+    margin-left: 80px;
+
 }
 
 .new-button:hover {
@@ -201,12 +202,12 @@ nav ul {
 }
 
 /* footer icons styles */
-.icon{
+.icon {
     display: flex;
     gap: 20px;
     align-items: center;
-    margin-top: 30px;
-    
+    margin-top: 20px;
+
 }
 
 
@@ -216,13 +217,13 @@ nav ul {
 }
 
 .gmail-btn {
-    height: 80px;
+    height: 70px;
     width: 400px;
     font-size: 18px;
-    margin-bottom: 20px;
     border: none;
     border-radius: 5px;
     padding: 5px 30px;
+    margin-bottom: 10px;
 
 }
 
