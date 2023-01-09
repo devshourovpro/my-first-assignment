@@ -45,7 +45,7 @@ nav ul {
     border-radius: 5px;
     font-size: 24px;
     width: 200px;
-    height: 80px;
+    height: 70px;
     color: #ffffff;
 }
 
@@ -139,44 +139,28 @@ nav ul {
 
 /* help section styles */
 .help-box {
-    padding: 40px 350px;
-    width: 1200px;
-    height: 300px;
+    padding: 20px 350px;
     color: white;
-    border-radius: 10px;
-    background-image: url('/images/gradient1.png'), url('/images/watch.png');
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 5px;
+    width: 1140px;
+    height: 300px;
+    background-image: url('/images/gradient1.png'), url('/images/watch.png');
     margin-bottom: 100px;
-
 }
 
 .help-title {
     font-weight: 700;
     font-size: 40px;
-    padding-top: 50px;
     margin-left: 80px;
-    margin-bottom: 20px;
+    padding-top: 30px;
 }
 
-.new-button {
-    cursor: pointer;
-    background-color: #0fc728;
-    border: none;
-    border-radius: 5px;
-    font-size: 24px;
-    width: 200px;
-    height: 80px;
-    color: #ffffff;
+.help-box-button {
+    margin-top: 30px;
     margin-left: 80px;
-
 }
-
-.new-button:hover {
-    background-color: #19a463;
-
-}
-
 
 /* footer styles */
 .future {
@@ -185,6 +169,7 @@ nav ul {
     justify-content: space-between;
     padding: 100px 500px;
     gap: 100px;
+    align-items: center;
 }
 
 .future-info {
