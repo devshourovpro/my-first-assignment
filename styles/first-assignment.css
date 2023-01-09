@@ -54,32 +54,33 @@ nav ul {
 
 }
 
+
 /* banner styles */
 .banner {
     text-align: right;
-    padding: 50px 200px;
-    font-size: 24px;
+    width: 1890x;
+    height: 800px;
     background-image: url('../images/banner/banner3.png');
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-color: #cacac8;
-    background-position: cover;
-    background-blend-mode: darken;
+    position: relative;
+    background-blend-mode: multiply;
+    padding: 200px 100px 150px 1000px;
 }
 
 .banner-title {
-    font-weight: 700;
-    font-size: 65px;
+    font-weight: 24px;
+    font-size: 70px;
     margin-bottom: 20px;
-    margin-left: 700px;
+    color: #ffffff;
 }
 
 .banner-description {
     font-size: 18px;
-    margin-left: 800px;
     padding-bottom: 30px;
     color: white;
 }
+
 
 /* blog-container styles */
 .blog-box {
@@ -91,20 +92,123 @@ nav ul {
 
 }
 
-.blog-container {
-    font-size: 24px;
-    text-align: left;
+.blog-title {
+    font-size: 50px;
 }
-
-.blog-title {}
 
 .blog-sub-title {
     font-size: 18px;
-    text-align: left;
     margin-top: 30px;
+}
+
+
+/* my plan in this year styles */
+.plan {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 200px;
+}
+
+.plan-margin {
+    margin: 10px 600px;
+}
+
+.my-plan {
+    display: flex;
+    gap: 100px;
+    padding: 100px 500px;
+    text-align: center;
+}
+
+.my-plan-title {
+    font-size: 20px;
+    font-weight: 40px;
+
+}
+
+.my-plan-sub {
+    font-size: 15px;
 }
 
 .my-lost {
     margin-top: 30px;
     list-style-image: url('../images/icons/tiktik.png');
+}
+
+
+/* help section styles */
+.help {
+    padding: 20px 400px;
+    color: white;
+    background-image: url('/images/watch.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 100px;
+    background-blend-mode: multiply;
+
+}
+
+.help-title {
+    font-size: 40px;
+    margin-bottom: 30px;
+    padding-right: 400px;
+    padding-top: 20px;
+    margin-left: 30px;
+}
+
+.new-button {
+    cursor: pointer;
+    background-color: #0fc728;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    width: 200px;
+    height: 80px;
+    color: #ffffff;
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+
+.new-button:hover {
+    background-color: #19a463;
+
+}
+
+
+/* footer styles */
+.future {
+    display: flex;
+    background-color: #0070d1;
+    justify-content: space-around;
+    padding: 100px 400px;
+    gap: 50px;
+}
+
+.future-info {
+    color: white;
+}
+
+.future-title {
+    font-size: 50px;
+}
+
+.future-bio {
+    font-size: 18px;
+}
+
+/* footer form styles */
+.subscribe {
+    color: white;
+}
+.gmail-btn{
+    height: 80px;
+    width: 500px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+
+}
+.subscribe-title{
+    margin-bottom: 20px;
 }
