@@ -138,13 +138,15 @@ nav ul {
 
 /* help section styles */
 .help {
-    padding: 20px 400px;
+    padding: 0px 300px;
+    width: 1140px;
+    height: 300px;
     color: white;
-    background-image: url('/images/watch.png');
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(122, 213, 255) 0%, rgba(255, 255, 255, 0) 100%) content-box no-repeat, url('/images/watch.png');
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 100px;
-    background-blend-mode: multiply;
 
 }
 
@@ -178,10 +180,10 @@ nav ul {
 /* footer styles */
 .future {
     display: flex;
-    background-color: #0070d1;
+    background-color: #000000;
     justify-content: space-around;
     padding: 100px 400px;
-    gap: 50px;
+    gap: 100px;
 }
 
 .future-info {
@@ -190,6 +192,7 @@ nav ul {
 
 .future-title {
     font-size: 50px;
+    margin-bottom: 20px;
 }
 
 .future-bio {
@@ -200,15 +203,18 @@ nav ul {
 .subscribe {
     color: white;
 }
-.gmail-btn{
+
+.gmail-btn {
     height: 80px;
     width: 500px;
     font-size: 18px;
     margin-bottom: 20px;
     border: none;
     border-radius: 5px;
+    padding: 5px 30px;
 
 }
-.subscribe-title{
+
+.subscribe-title {
     margin-bottom: 20px;
 }
